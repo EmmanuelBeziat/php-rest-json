@@ -94,19 +94,13 @@ You can either chose to get a web view for the data, or directly raw JSON data. 
 
 **Web view**
 
-All items
-```http://mywebsite.localhost/view/items```
-
-Specific item by ID (1 for example)
-```http://mywebsite.localhost/view/items/1```
+* All items: ```http://mywebsite.localhost/view/items```
+* Specific item by ID (1 for example): ```http://mywebsite.localhost/view/items/1```
 
 **Raw data**
 
-All items
-```http://mywebsite.localhost/api/items```
-
-Specific item by ID (1 for example)
-```http://mywebsite.localhost/api/items/1```
+* All items: ```http://mywebsite.localhost/api/items```
+* Specific item by ID (1 for example): ```http://mywebsite.localhost/api/items/1```
 
 ### Post data
 
