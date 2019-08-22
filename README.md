@@ -110,9 +110,7 @@ Specific item by ID (1 for example)
 
 ### Post data
 
-You need a `POST` header to post a new data.
-
-Then, you can send your data to `http://mywebsite.localhost/add`.
+You need to send a `POST` header request to add a new data. In order to do so, your data should be sent to `http://mywebsite.localhost/add`.
 
 Of course, change the `routes/web.php` content to match the data you need to receive, and make sure it matches your database.
 
@@ -125,6 +123,8 @@ As for this example, the data waited are simply these:
 ```
 
 MySQL database in this example is set to automatically add and increment and ID, and a timestamp to the current time. So the name parameter is the only one to be expected.
+
+If you need to test it, you can use any REST client, such as [Insomnia](https://insomnia.rest/).
 
 ## Documentation
 
