@@ -1,8 +1,8 @@
 # php-rest-json
 
-Please not that this tool is just an example, you should edit the files (views, route, etc.) to match your needs.
+Please note that this tool is just an example of usecase, you should edit the files (views, route, etc.) to match your needs.
 
-It’s still lacking an authentication module and CORS advanced management.
+It’s still lacking an authentication module and CORS advanced management. I strongly discourage to use it in production.
 
 ## Setup
 
