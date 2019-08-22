@@ -25,7 +25,9 @@ Make sure that your server (localhost or DNS) point on the `/public` folder.
 
 ### 4. Database
 
-The example views are set to work with a MySQL database with this data type:
+Create a database to fit your needs, and be sure to edit the `/views` and `/routes/web.php` accordingly.
+
+These example views are set to work with a MySQL database with this data type:
 
 ```sql
 --
